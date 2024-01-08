@@ -1,0 +1,20 @@
+open normal cmd
+ipconfig get the ipv4 address
+
+open anaconda prompt
+go to API folder & copy the path
+go to anaconda prompt cd <path to API folder>
+conda activate research4
+code .
+create new command prompt from vs code
+run npm start
+run python manage.py runserver 192.168.1.18:8080 --noreload
+
+now backend is up and running
+
+
+go to stressdetectapp folder & copy the path
+open normal cmd again run cd <path to stressdetectappfolder>
+run code . 
+npm start
+a

@@ -1,0 +1,12 @@
+
+===========create virtual environment==========
+conda create -n research python=3.8
+conda activate research
+
+=========install libraries==========
+pip install -r requirements.txt
+
+
+run notebooks -> jupyter notebook
+
+ 

@@ -1,0 +1,117 @@
+level 1: neutral + sad
+level 2: angry 
+level 4: disgust + angry
+
+level 3: nail biting
+level 5: hair pulling
+
+dataset eka hadagatta widiya me research ekata galapena widiyata
+
+level 1: neutral + sad
+
+level 2: angry             (+ level 1 dataset)
+
+level 3: nail biting       (+ level 1, 2 dataset)
+
+level 4: disgust + angry   (+ level 1, 2, 3 dataset)
+
+level 5: hair pulling      (+ level 1, 2, 3, 4 dataset)
+
+
+nail biting and hair pulling can be cause to stressed, anxiety or ptsd. 
+both behaviours 
+
+the previous error was this,
+
+level 1: neutral + sad
+level 2: angry             
+level 3: nail biting       
+level 4: disgust + angry   
+level 5: hair pulling      
+
+after talking with the external supervisor the solution he gave is this, 
+
+level 1: neutral + sad
+level 2: angry             (+ level 1 dataset)
+level 3: nail biting       (+ level 1, 2 dataset)
+level 4: disgust + angry   (+ level 1, 2, 3 dataset)
+level 5: hair pulling      (+ level 1, 2, 3, 4 dataset)
+
+like above combining the dataset we can get a good idea how this happens and doing this, output is more reliable. and also he suggest to combine blood pressure, BMI, heart rate and
+ other physical health metrics for future work.
+
+
+
+
+
+
+references
+
+CNN model is good better than other: research paper ekak hoyaganna
+
+
+PP3 individual component ---------------------------------------------
+
+objective & solution
+
+research problem is,
+in present AI solutions are not good to use for mental disorder health section. find out AI solution can give a good solution for mental disorders.
+
+solution is,
+predict stress level of customers using AI based  mobile application after uploading a video footage. 
+
+
+Model Explanation
+
+a. dataset is consist of two parts. 
+	1. facial recognition
+		download from kaggle. (put this link in reference section.) 
+	2. body movements
+		download from pexels, istock websites (put this link in references section)
+	with discussion with miss nimali I preprocess the dataset. 
+
+b. model selection
+	In my component I work with images so CNN is the best machine learning approach to work with. (put this link in reference section)
+
+c. Result and Discussion
+	put an image of epoches, learning rate, f1-score
+
+d. challanges
+
+	1. Data Privacy and Ethical Concerns
+		real world true data use karanna bari una data ethical issues nisa.
+
+	2. Domain knowledge of Mental Disorders
+
+	3. 
+
+
+e. References(only proof points)
+
+
+
+
+
+Mrs. Namali perera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

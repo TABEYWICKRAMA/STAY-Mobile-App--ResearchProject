@@ -1,0 +1,3 @@
+export enum ActionTypes {
+    GREETING_SCREEN_SET_SOME_PROP = 'GREETING_SCREEN_SET_SOME_PROP',
+}

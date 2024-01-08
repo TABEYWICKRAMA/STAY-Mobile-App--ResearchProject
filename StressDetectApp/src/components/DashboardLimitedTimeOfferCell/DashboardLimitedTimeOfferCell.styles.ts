@@ -1,0 +1,152 @@
+import {Platform, StyleSheet} from 'react-native';
+import {scale, moderateScale} from 'react-native-size-matters';
+import useTheme from '../../theme/useTheme';
+
+const {colors} = useTheme;
+const styles = StyleSheet.create({
+  appButtonText: {
+    fontSize: moderateScale(18),
+    color: '#fff',
+    fontWeight: 'bold',
+    alignSelf: 'center',
+    textTransform: 'uppercase',
+  },
+  buttonText: {
+    fontFamily: Platform.OS === 'ios' ? 'Bebas Neue Pro' : 'bebasneuepro',
+    fontSize: moderateScale(8),
+    color: '#fff',
+    fontWeight: 'bold',
+    justifyContent: 'center',
+    textTransform: 'uppercase',
+  },
+  mainCellContainer: {
+    margin: moderateScale(4),
+    backgroundColor: '#ffff',
+    shadowOffset: {width: 0.1, height: 0.2},
+    shadowOpacity: 0.125,
+    elevation: 0.1,
+    borderRadius: moderateScale(2),
+    shadowRadius: moderateScale(6),
+    shadowColor: 'black',
+  },
+  offerCellContainer: {
+    width: '100%',
+    backgroundColor: 'transparent',
+    flexDirection: 'row',
+    alignContent: 'flex-end',
+    alignSelf: 'flex-end',
+    margin: moderateScale(0),
+    overflow: 'visible',
+  },
+  IconDollar: {
+    alignContent: 'flex-end',
+    fontSize: scale(34),
+    marginHorizontal: moderateScale(4),
+    marginLeft: moderateScale(8),
+    color: 'black',
+  },
+  stackCellContainer: {
+    width: '100%',
+    alignContent: 'flex-start',
+    alignSelf: 'flex-start',
+    marginLeft: moderateScale(24),
+  },
+  bottomCellContainer: {
+    width: '100%',
+    flexDirection: 'row',
+    elevation: 10,
+    alignContent: 'flex-start',
+    alignSelf: 'flex-start',
+    marginBottom: moderateScale(0),
+    marginLeft: moderateScale(0),
+  },
+  btnContainer: {
+    height: moderateScale(28),
+    width: moderateScale(96),
+    flexDirection: 'row',
+    elevation: 10,
+    alignContent: 'flex-start',
+    alignSelf: 'flex-start',
+    margin: moderateScale(0),
+  },
+  bgImg: {
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+    backgroundColor: '#ffff',
+    alignContent: 'flex-end',
+    alignItems: 'flex-end',
+    alignSelf: 'flex-end',
+    overflow: 'hidden',
+    borderRadius: scale(4),
+    resizeMode: 'cover',
+  },
+  HeaderText: {
+    // fontFamily: 'BebasNeuePro-Bold',
+
+    fontFamily: Platform.OS === 'ios' ? 'Bebas Neue Pro' : 'bebasneuepro',
+    alignContent: 'flex-end',
+    alignSelf: 'baseline',
+    fontSize: scale(10),
+    marginHorizontal: moderateScale(0),
+    marginVertical: moderateScale(0),
+    color: colors.SplashButtonBluecolor,
+    //backgroundColor: '#0E74BE',
+  },
+  offerText: {
+    // fontFamily: 'BebasNeuePro-Bold',
+
+    fontFamily: Platform.OS === 'ios' ? 'Bebas Neue Pro' : 'bebasneuepro',
+    alignContent: 'flex-end',
+    alignSelf: 'baseline',
+    fontSize: scale(38),
+    marginHorizontal: moderateScale(0),
+    marginVertical: moderateScale(0),
+    color: 'black',
+  },
+  TitleText: {
+    // fontFamily: 'BebasNeuePro-Bold',
+
+    fontFamily: Platform.OS === 'ios' ? 'Bebas Neue Pro' : 'bebasneuepro',
+    alignContent: 'flex-end',
+    // alignSelf: 'baseline',
+    fontSize: scale(12),
+    marginHorizontal: moderateScale(8),
+    marginVertical: moderateScale(4),
+    color: 'black',
+  },
+  Icon: {
+    elevation: 10,
+    alignContent: 'flex-end',
+    alignSelf: 'baseline',
+    fontSize: scale(16),
+    marginLeft: moderateScale(8),
+    marginVertical: moderateScale(4),
+    color: colors.SplashButtonBluecolor,
+  },
+  appButtonContainer: {
+    elevation: 8,
+    backgroundColor: '#009688',
+    borderRadius: moderateScale(10),
+    paddingVertical: moderateScale(10),
+    paddingHorizontal: moderateScale(12),
+  },
+  button: {
+    fontFamily: Platform.OS === 'ios' ? 'Bebas Neue Pro' : 'bebasneuepro',
+    elevation: 10,
+    backgroundColor: 'gray',
+    paddingHorizontal: 0,
+    paddingVertical: 0,
+    borderRadius: 0,
+  },
+  buttnText: {
+    // fontFamily: 'BebasNeuePro-Bold',
+
+    fontFamily: Platform.OS === 'ios' ? 'Bebas Neue Pro' : 'bebasneuepro',
+    elevation: 10,
+    alignSelf: 'center',
+    color: 'white',
+    fontSize: scale(18),
+  },
+});
+
+export default styles;
